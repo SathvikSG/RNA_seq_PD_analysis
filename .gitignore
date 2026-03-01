@@ -1,0 +1,18 @@
+# Data files (download separately from GEO)
+data/raw_counts.csv
+data/*.csv
+data/*.tsv
+data/*.txt
+
+# Generated output (reproducible from script)
+results/
+figures/
+
+# R environment
+.Rhistory
+.RData
+.Rproj.user/
+*.Rproj
+
+# macOS
+.DS_Store

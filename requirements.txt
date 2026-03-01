@@ -1,0 +1,39 @@
+# R Package Dependencies
+# RNA-seq Differential Expression Analysis - Parkinson's Disease
+# Install using the commands below in R
+
+# ── Bioconductor packages ──────────────────────────────────────────────────────
+# BiocManager::install(c(
+#   "DESeq2",           # >= 1.36.0  — core DE analysis
+#   "edgeR",            # >= 3.38.0  — TMM normalization
+#   "clusterProfiler",  # >= 4.4.0   — GO/KEGG enrichment
+#   "org.Hs.eg.db",     # >= 3.15.0  — human gene annotation
+#   "biomaRt",          # >= 2.52.0  — Ensembl ID conversion
+#   "EnhancedVolcano"   # >= 1.14.0  — volcano plot
+# ))
+
+# ── CRAN packages ──────────────────────────────────────────────────────────────
+# install.packages(c(
+#   "ggplot2",          # >= 3.3.6   — general plotting
+#   "pheatmap",         # >= 1.0.12  — heatmap generation
+#   "tidyverse",        # >= 1.3.2   — data wrangling
+#   "RColorBrewer",     # >= 1.1.3   — color palettes
+#   "gplots"            # >= 3.1.3   — additional plotting utilities
+# ))
+
+# ── R version ─────────────────────────────────────────────────────────────────
+# R >= 4.2.0 required
+
+# ── Quick install (run in R console) ──────────────────────────────────────────
+# if (!requireNamespace("BiocManager", quietly = TRUE))
+#   install.packages("BiocManager")
+#
+# BiocManager::install(c(
+#   "DESeq2", "edgeR", "clusterProfiler",
+#   "org.Hs.eg.db", "biomaRt", "EnhancedVolcano"
+# ))
+#
+# install.packages(c(
+#   "ggplot2", "pheatmap", "tidyverse",
+#   "RColorBrewer", "gplots"
+# ))
